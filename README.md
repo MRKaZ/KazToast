@@ -9,7 +9,7 @@ Make Your Custom Toast Here!.
 
 ## Prerequisites
 
-Add this in your root `build.gradle` file (**not .app** your module `build.gradle` file):
+Add this in your root `build.gradle` file (**not** in your `build.gradle.app` add it into your module `build.gradle` file):
 
 ```gradle
 allprojects {
