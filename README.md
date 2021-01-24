@@ -1,5 +1,5 @@
 # KazToast
-[![API](https://img.shields.io/badge/API-14%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=14) [![](https://github.com/MRKaZ/KazToast/blob/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png)](https://jitpack.io/#MRKaZ/KazToast/1.0)
+[![API](https://img.shields.io/badge/API-14%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=14)
 
 <div align="center">
 	<img src="https://i.imgur.com/H2jEq9x.png" width="128">
