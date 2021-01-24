@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Success Colors-->
+    <color name="success">#00FF66</color> <!--84fab0-->
+    <color name="successDark">#00B73E</color> <!--00BA08-->
+
+    <!--Info Colors-->
+    <color name="info">#2575fc</color>
+    <color name="infoDark">#6a11cb</color>
+
+    <!--Warning Colors-->
+    <color name="warn">#f9d423</color>
+    <color name="warnDark">#f83600</color>
+
+    <!--Error Colors-->
+    <color name="error">#FF1504</color>
+    <color name="errorDark">#970A00</color>
+
+    <!--Custom Colors-->
+    <color name="custom">#8baaaa</color>
+    <color name="customDark">#ae8b9c</color>
+
+    <!--Custom Test Colors-->
+    <color name="customTest">#4F4F4F</color>
+    <color name="customTestDark">#000000</color>
+
+    <!--App Based Colors-->
+    <color name="colorPrimary">#F1001B</color>
+    <color name="colorPrimaryDark">#9A0011</color>
+    <color name="colorAccent">#9A0011</color>
+    <color name="colorTips">#ffb48f35</color>
+    <color name="colorDefaultDark">#ff262328</color>
+    <color name="black">#FF000000</color>
+    <color name="darkBlack">#0a0a0a</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purpleDark">#270080</color>
+</resources>

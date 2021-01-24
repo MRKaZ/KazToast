@@ -1,0 +1,3 @@
+include ':kaztoast'
+include ':app'
+rootProject.name = "Custom Toasts"

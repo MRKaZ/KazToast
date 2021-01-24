@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <RelativeLayout
+       android:id="@+id/mainRLayout"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="#FAFAFA">
+
+       <RelativeLayout
+           android:id="@+id/LLayout"
+           android:layout_width="match_parent"
+           android:layout_height="150dip"
+           android:background="@drawable/layout_red_background">
+
+
+           <ImageView
+               android:id="@+id/mainTitleImage"
+               android:layout_marginTop="15dp"
+               android:layout_centerHorizontal="true"
+               android:layout_width="75dp"
+               android:layout_height="75dp"
+               android:src="@drawable/ic_kaz_toast_logo"/>
+
+           <TextView
+               android:id="@+id/mainTitle"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="KaZ Toast"
+               android:textSize="21sp"
+               android:textColor="@color/white"
+               android:layout_centerHorizontal="true"
+               android:layout_below="@id/mainTitleImage"/>
+
+           <TextView
+               android:id="@+id/mainDescription"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Make your Custom Toast!"
+               android:textSize="15sp"
+               android:textColor="@color/white"
+               android:layout_centerHorizontal="true"
+               android:layout_below="@id/mainTitle"/>
+
+       </RelativeLayout>
+
+       <!--Success Layout-->
+       <androidx.cardview.widget.CardView
+           android:elevation="2dp"
+           app:cardCornerRadius="12dp"
+           android:layout_margin="10dp"
+           android:id="@+id/cardViewTopSuccess"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_below="@id/LLayout">
+
+           <LinearLayout
+               android:orientation="vertical"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+               <TextView
+                   android:layout_marginTop="10dp"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Success Toast Message"
+                   android:gravity="center"
+                   android:textStyle="bold"
+                   android:textColor="@color/darkBlack"
+                   android:textSize="15dp"/>
+
+               <View
+                   android:layout_marginTop="15dp"
+                   android:layout_marginBottom="15dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginLeft="10dp"
+                   android:layout_width="match_parent"
+                   android:layout_height="0.1dp"
+                   android:background="@android:color/darker_gray"/>
+
+               <Button
+                   android:id="@+id/btnSuccess"
+                   android:layout_width="match_parent"
+                   android:layout_height="45dp"
+                   android:textAllCaps="false"
+                   android:text="Success Toast"
+                   android:textColor="@color/white"
+                   android:textStyle="bold"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginLeft="10dp"
+                   android:background="@drawable/button_success_background"/>
+
+               <View
+                   android:layout_marginTop="15dp"
+                   android:layout_marginBottom="15dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginLeft="10dp"
+                   android:layout_width="match_parent"
+                   android:layout_height="0.1dp"
+                   android:background="@android:color/darker_gray"/>
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Options"
+                   android:textColor="@color/darkBlack"
+                   android:gravity="center"
+                   android:textSize="15dp"/>
+
+               <View
+                   android:layout_marginTop="15dp"
+                   android:layout_marginBottom="15dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginLeft="10dp"
+                   android:layout_width="match_parent"
+                   android:layout_height="0.1dp"
+                   android:background="@android:color/darker_gray"/>
+
+               <LinearLayout
+                   android:background="@drawable/radio_flat_stroke"
+                   android:layout_gravity="center"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:padding="1dp"
+                   android:layout_marginBottom="15dp">
+
+                   <RadioGroup
+                       android:id="@+id/radioGroupSuccess"
+                       android:orientation="horizontal"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content">
+
+                       <RadioButton
+                           android:checked="true"
+                           android:id="@+id/radioWithIconSuccess"
+                           android:textSize="14sp"
+                           android:layout_width="100dp"
+                           android:gravity="center"
+                           android:layout_height="35dp"
+                           android:paddingLeft="16sp"
+                           android:paddingTop="3sp"
+                           android:paddingRight="16sp"
+                           android:paddingBottom="3sp"
+                           android:background="@drawable/radio_flat_selector"
+                           android:button="@android:color/transparent"
+                           android:textColor="@drawable/radio_flat_text_selector"
+                           android:text="With Icon"/>
+
+                       <RadioButton
+                           android:id="@+id/radioWithoutIconSuccess"
+                           android:textSize="14sp"
+                           android:layout_width="wrap_content"
+                           android:gravity="center"
+                           android:layout_height="35dp"
+                           android:paddingLeft="16sp"
+                           android:paddingTop="3sp"
+                           android:paddingRight="16sp"
+                           android:paddingBottom="3sp"
+                           android:background="@drawable/radio_flat_selector"
+                           android:button="@android:color/transparent"
+                           android:textColor="@drawable/radio_flat_text_selector"
+                           android:text="Without Icon"/>
+
+                       <RadioButton
+                           android:id="@+id/radioSuccessWithCustomIcon"
+                           android:textSize="14sp"
+                           android:layout_width="wrap_content"
+                           android:gravity="center"
+                           android:layout_height="35dp"
+                           android:paddingLeft="16sp"
+                           android:paddingTop="3sp"
+                           android:paddingRight="16sp"
+                           android:paddingBottom="3sp"
+                           android:background="@drawable/radio_flat_selector"
+                           android:button="@android:color/transparent"
+                           android:textColor="@drawable/radio_flat_text_selector"
+                           android:text="Custom Icon"/>
+
+                   </RadioGroup>
+
+               </LinearLayout>
+
+           </LinearLayout>
+
+       </androidx.cardview.widget.CardView>
+
+       <!--Info Layout-->
+       <androidx.cardview.widget.CardView
+           android:elevation="2dp"
+           app:cardCornerRadius="12dp"
+           android:layout_margin="10dp"
+           android:id="@+id/cardViewTop"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_below="@id/cardViewTopSuccess">
+
+           <LinearLayout
+               android:orientation="vertical"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+               <TextView
+                   android:layout_marginTop="10dp"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Info Toast Message"
+                   android:gravity="center"
+                   android:textStyle="bold"
+                   android:textColor="@color/darkBlack"
+                   android:textSize="15dp"/>
+
+               <View
+                   android:layout_marginTop="15dp"
+                   android:layout_marginBottom="15dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginLeft="10dp"
+                   android:layout_width="match_parent"
+                   android:layout_height="0.1dp"
+                   android:background="@android:color/darker_gray"/>
+
+               <Button
+                   android:id="@+id/btnInfo"
+                   android:layout_width="match_parent"
+                   android:layout_height="45dp"
+                   android:textAllCaps="false"
+                   android:text="Info Toast"
+                   android:textColor="@color/white"
+                   android:textStyle="bold"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginLeft="10dp"
+                   android:background="@drawable/button_info_background"/>
+
+               <View
+                   android:layout_marginTop="15dp"
+                   android:layout_marginBottom="15dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginLeft="10dp"
+                   android:layout_width="match_parent"
+                   android:layout_height="0.1dp"
+                   android:background="@android:color/darker_gray"/>
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Options"
+                   android:textColor="@color/darkBlack"
+                   android:gravity="center"
+                   android:textSize="15dp"/>
+
+               <View
+                   android:layout_marginTop="15dp"
+                   android:layout_marginBottom="15dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginLeft="10dp"
+                   android:layout_width="match_parent"
+                   android:layout_height="0.1dp"
+                   android:background="@android:color/darker_gray"/>
+
+               <LinearLayout
+                   android:layout_gravity="center"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginBottom="10dp">
+
+                   <RadioGroup
+                       android:id="@+id/radioGroup"
+                       android:orientation="horizontal"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content">
+
+                       <RadioButton
+                           android:checked="true"
+                           android:id="@+id/radioWithIcon"
+                           android:textSize="14sp"
+                           android:layout_width="100dp"
+                           android:gravity="center"
+                           android:layout_height="35dp"
+                           android:paddingLeft="16sp"
+                           android:paddingTop="3sp"
+                           android:paddingRight="16sp"
+                           android:paddingBottom="3sp"
+                           android:background="@drawable/radio_flat_selector"
+                           android:button="@android:color/transparent"
+                           android:textColor="@drawable/radio_flat_text_selector"
+                           android:text="With Icon"/>
+
+                       <RadioButton
+                           android:id="@+id/radioWithoutIcon"
+                           android:textSize="14sp"
+                           android:layout_width="wrap_content"
+                           android:gravity="center"
+                           android:layout_height="35dp"
+                           android:paddingLeft="16sp"
+                           android:paddingTop="3sp"
+                           android:paddingRight="16sp"
+                           android:paddingBottom="3sp"
+                           android:background="@drawable/radio_flat_selector"
+                           android:button="@android:color/transparent"
+                           android:textColor="@drawable/radio_flat_text_selector"
+                           android:text="Without Icon"/>
+
+                       <RadioButton
+                           android:id="@+id/radioInfoWithCustomIcon"
+                           android:textSize="14sp"
+                           android:layout_width="wrap_content"
+                           android:gravity="center"
+                           android:layout_height="35dp"
+                           android:paddingLeft="16sp"
+                           android:paddingTop="3sp"
+                           android:paddingRight="16sp"
+                           android:paddingBottom="3sp"
+                           android:background="@drawable/radio_flat_selector"
+                           android:button="@android:color/transparent"
+                           android:textColor="@drawable/radio_flat_text_selector"
+                           android:text="Custom Icon"/>
+
+                   </RadioGroup>
+
+               </LinearLayout>
+
+           </LinearLayout>
+
+       </androidx.cardview.widget.CardView>
+
+       <!--Warning Layout-->
+       <androidx.cardview.widget.CardView
+           android:elevation="2dp"
+           app:cardCornerRadius="12dp"
+           android:layout_margin="10dp"
+           android:id="@+id/cardViewTopWarn"
+           android:layout_below="@id/cardViewTop"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+           <LinearLayout
+               android:orientation="vertical"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+               <TextView
+                   android:layout_marginTop="10dp"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Warning Toast Message"
+                   android:gravity="center"
+                   android:textStyle="bold"
+                   android:textColor="@color/darkBlack"
+                   android:textSize="15dp"/>
+
+               <View
+                   android:layout_marginTop="15dp"
+                   android:layout_marginBottom="15dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginLeft="10dp"
+                   android:layout_width="match_parent"
+                   android:layout_height="0.1dp"
+                   android:background="@android:color/darker_gray"/>
+
+               <Button
+                   android:id="@+id/btnWarn"
+                   android:layout_width="match_parent"
+                   android:layout_height="45dp"
+                   android:textAllCaps="false"
+                   android:text="Warning Toast"
+                   android:textColor="@color/white"
+                   android:textStyle="bold"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginLeft="10dp"
+                   android:background="@drawable/button_warn_background"/>
+
+               <View
+                   android:layout_marginTop="15dp"
+                   android:layout_marginBottom="15dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginLeft="10dp"
+                   android:layout_width="match_parent"
+                   android:layout_height="0.1dp"
+                   android:background="@android:color/darker_gray"/>
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Options"
+                   android:textColor="@color/darkBlack"
+                   android:gravity="center"
+                   android:textSize="15dp"/>
+
+               <View
+                   android:layout_marginTop="15dp"
+                   android:layout_marginBottom="15dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginLeft="10dp"
+                   android:layout_width="match_parent"
+                   android:layout_height="0.1dp"
+                   android:background="@android:color/darker_gray"/>
+
+               <LinearLayout
+                   android:layout_gravity="center"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginBottom="10dp">
+
+                   <RadioGroup
+                       android:id="@+id/radioGroupWarn"
+                       android:orientation="horizontal"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content">
+
+                       <RadioButton
+                           android:checked="true"
+                           android:id="@+id/radioWithIconWarn"
+                           android:textSize="14sp"
+                           android:layout_width="wrap_content"
+                           android:gravity="center"
+                           android:layout_height="35dp"
+                           android:paddingLeft="16sp"
+                           android:paddingTop="3sp"
+                           android:paddingRight="16sp"
+                           android:paddingBottom="3sp"
+                           android:background="@drawable/radio_flat_selector"
+                           android:button="@android:color/transparent"
+                           android:textColor="@drawable/radio_flat_text_selector"
+                           android:text="With Icon"/>
+
+                       <RadioButton
+                           android:id="@+id/radioWithoutIconWarn"
+                           android:textSize="14sp"
+                           android:layout_width="wrap_content"
+                           android:gravity="center"
+                           android:layout_height="35dp"
+                           android:paddingLeft="16sp"
+                           android:paddingTop="3sp"
+                           android:paddingRight="16sp"
+                           android:paddingBottom="3sp"
+                           android:background="@drawable/radio_flat_selector"
+                           android:button="@android:color/transparent"
+                           android:textColor="@drawable/radio_flat_text_selector"
+                           android:text="Without Icon"/>
+
+                       <RadioButton
+                           android:id="@+id/radioWarnWithCustomIcon"
+                           android:textSize="14sp"
+                           android:layout_width="wrap_content"
+                           android:gravity="center"
+                           android:layout_height="35dp"
+                           android:paddingLeft="16sp"
+                           android:paddingTop="3sp"
+                           android:paddingRight="16sp"
+                           android:paddingBottom="3sp"
+                           android:background="@drawable/radio_flat_selector"
+                           android:button="@android:color/transparent"
+                           android:textColor="@drawable/radio_flat_text_selector"
+                           android:text="Custom Icon"/>
+
+                   </RadioGroup>
+
+               </LinearLayout>
+
+           </LinearLayout>
+
+       </androidx.cardview.widget.CardView>
+
+       <!--Error Layout-->
+       <androidx.cardview.widget.CardView
+           android:elevation="2dp"
+           app:cardCornerRadius="12dp"
+           android:layout_margin="10dp"
+           android:id="@+id/cardViewTopError"
+           android:layout_below="@id/cardViewTopWarn"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+           <LinearLayout
+               android:orientation="vertical"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+               <TextView
+                   android:layout_marginTop="10dp"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Error Toast Message"
+                   android:gravity="center"
+                   android:textStyle="bold"
+                   android:textColor="@color/darkBlack"
+                   android:textSize="15dp"/>
+
+               <View
+                   android:layout_marginTop="15dp"
+                   android:layout_marginBottom="15dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginLeft="10dp"
+                   android:layout_width="match_parent"
+                   android:layout_height="0.1dp"
+                   android:background="@android:color/darker_gray"/>
+
+               <Button
+                   android:id="@+id/btnError"
+                   android:layout_width="match_parent"
+                   android:layout_height="45dp"
+                   android:textAllCaps="false"
+                   android:text="Error Toast"
+                   android:textColor="@color/white"
+                   android:textStyle="bold"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginLeft="10dp"
+                   android:background="@drawable/button_error_background"/>
+
+               <View
+                   android:layout_marginTop="15dp"
+                   android:layout_marginBottom="15dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginLeft="10dp"
+                   android:layout_width="match_parent"
+                   android:layout_height="0.1dp"
+                   android:background="@android:color/darker_gray"/>
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Options"
+                   android:textColor="@color/darkBlack"
+                   android:gravity="center"
+                   android:textSize="15dp"/>
+
+               <View
+                   android:layout_marginTop="15dp"
+                   android:layout_marginBottom="15dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginLeft="10dp"
+                   android:layout_width="match_parent"
+                   android:layout_height="0.1dp"
+                   android:background="@android:color/darker_gray"/>
+
+               <LinearLayout
+                   android:layout_gravity="center"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginBottom="10dp">
+
+                   <RadioGroup
+                       android:id="@+id/radioGroupError"
+                       android:orientation="horizontal"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content">
+
+                       <RadioButton
+                           android:checked="true"
+                           android:id="@+id/radioWithIconError"
+                           android:textSize="14sp"
+                           android:layout_width="wrap_content"
+                           android:gravity="center"
+                           android:layout_height="35dp"
+                           android:paddingLeft="16sp"
+                           android:paddingTop="3sp"
+                           android:paddingRight="16sp"
+                           android:paddingBottom="3sp"
+                           android:background="@drawable/radio_flat_selector"
+                           android:button="@android:color/transparent"
+                           android:textColor="@drawable/radio_flat_text_selector"
+                           android:text="With Icon"/>
+
+                       <RadioButton
+                           android:id="@+id/radioWithoutIconError"
+                           android:textSize="14sp"
+                           android:layout_width="wrap_content"
+                           android:gravity="center"
+                           android:layout_height="35dp"
+                           android:paddingLeft="16sp"
+                           android:paddingTop="3sp"
+                           android:paddingRight="16sp"
+                           android:paddingBottom="3sp"
+                           android:background="@drawable/radio_flat_selector"
+                           android:button="@android:color/transparent"
+                           android:textColor="@drawable/radio_flat_text_selector"
+                           android:text="Without Icon"/>
+
+                       <RadioButton
+                           android:id="@+id/radioErrorWithCustomIcon"
+                           android:textSize="14sp"
+                           android:layout_width="wrap_content"
+                           android:gravity="center"
+                           android:layout_height="35dp"
+                           android:paddingLeft="16sp"
+                           android:paddingTop="3sp"
+                           android:paddingRight="16sp"
+                           android:paddingBottom="3sp"
+                           android:background="@drawable/radio_flat_selector"
+                           android:button="@android:color/transparent"
+                           android:textColor="@drawable/radio_flat_text_selector"
+                           android:text="Custom Icon"/>
+
+                   </RadioGroup>
+
+               </LinearLayout>
+
+           </LinearLayout>
+
+       </androidx.cardview.widget.CardView>
+
+       <!--Custom Layout-->
+       <androidx.cardview.widget.CardView
+           android:elevation="2dp"
+           app:cardCornerRadius="12dp"
+           android:layout_margin="10dp"
+           android:id="@+id/cardViewTopCustom"
+           android:layout_below="@id/cardViewTopError"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+           <LinearLayout
+               android:orientation="vertical"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+               <TextView
+                   android:layout_marginTop="10dp"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Custom Toast Message"
+                   android:gravity="center"
+                   android:textStyle="bold"
+                   android:textColor="@color/darkBlack"
+                   android:textSize="15dp"/>
+
+               <View
+                   android:layout_marginTop="15dp"
+                   android:layout_marginBottom="15dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginLeft="10dp"
+                   android:layout_width="match_parent"
+                   android:layout_height="0.1dp"
+                   android:background="@android:color/darker_gray"/>
+
+               <Button
+                   android:id="@+id/btnCustom"
+                   android:layout_width="match_parent"
+                   android:layout_height="45dp"
+                   android:textAllCaps="false"
+                   android:text="Custom Toast"
+                   android:textColor="@color/white"
+                   android:textStyle="bold"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginLeft="10dp"
+                   android:background="@drawable/button_custom_background"/>
+
+               <View
+                   android:layout_marginTop="15dp"
+                   android:layout_marginBottom="15dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginLeft="10dp"
+                   android:layout_width="match_parent"
+                   android:layout_height="0.1dp"
+                   android:background="@android:color/darker_gray"/>
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Options"
+                   android:textColor="@color/darkBlack"
+                   android:gravity="center"
+                   android:textSize="15dp"/>
+
+               <View
+                   android:layout_marginTop="15dp"
+                   android:layout_marginBottom="15dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginLeft="10dp"
+                   android:layout_width="match_parent"
+                   android:layout_height="0.1dp"
+                   android:background="@android:color/darker_gray"/>
+
+               <LinearLayout
+                   android:layout_gravity="center"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginBottom="10dp">
+
+                   <RadioGroup
+                       android:id="@+id/radioGroupCustom"
+                       android:orientation="horizontal"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content">
+
+                       <RadioButton
+                           android:checked="true"
+                           android:id="@+id/radioWithIconCustom"
+                           android:textSize="14sp"
+                           android:layout_width="wrap_content"
+                           android:gravity="center"
+                           android:layout_height="35dp"
+                           android:paddingLeft="16sp"
+                           android:paddingTop="3sp"
+                           android:paddingRight="16sp"
+                           android:paddingBottom="3sp"
+                           android:background="@drawable/radio_flat_selector"
+                           android:button="@android:color/transparent"
+                           android:textColor="@drawable/radio_flat_text_selector"
+                           android:text="With Font"/>
+
+                       <RadioButton
+                           android:id="@+id/radioWithoutIconCustom"
+                           android:textSize="14sp"
+                           android:layout_width="wrap_content"
+                           android:gravity="center"
+                           android:layout_height="35dp"
+                           android:paddingLeft="16sp"
+                           android:paddingTop="3sp"
+                           android:paddingRight="16sp"
+                           android:paddingBottom="3sp"
+                           android:background="@drawable/radio_flat_selector"
+                           android:button="@android:color/transparent"
+                           android:textColor="@drawable/radio_flat_text_selector"
+                           android:text="Without Font"/>
+
+
+                   </RadioGroup>
+
+               </LinearLayout>
+
+           </LinearLayout>
+
+       </androidx.cardview.widget.CardView>
+
+   </RelativeLayout>
+
+</ScrollView>
