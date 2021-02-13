@@ -222,7 +222,7 @@ public class MainActivity extends AppCompatActivity {
                                 R.drawable.toast_custom_test_background) // Boolean icon == true / false
                                 .show(); // Show Toast
                         break;
-
+                        
                     // Without Icon Radio Button
                     case R.id.radioWithoutIconCustom:
                         // CustomToast.{makeYourChoice}

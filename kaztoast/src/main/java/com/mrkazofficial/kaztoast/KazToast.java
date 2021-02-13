@@ -9,6 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -59,7 +60,7 @@ public class KazToast {
         // Instance Toast
         Toast toastInfo = new Toast(Activity);
         // Set Gravity To Toast
-        toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+        toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
         // Set length To Toast Message!
         toastInfo.setDuration(Length);
         // Set Custom View To Toast Message!
@@ -82,7 +83,7 @@ public class KazToast {
         // Instance Toast
         Toast toastInfo = new Toast(Activity);
         // Set Gravity To Toast
-        toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+        toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
         // Set length To Toast Message!
         toastInfo.setDuration(Length);
         // Set Custom View To Toast Message!
@@ -108,7 +109,7 @@ public class KazToast {
             // Initiate Toast
             toastInfo = new Toast(Activity);
             // Set Gravity To Toast
-            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
             // Set length To Toast Message!
             toastInfo.setDuration(Length);
             // Set Custom View To Toast Message!
@@ -132,7 +133,7 @@ public class KazToast {
             // Instance Toast
             toastInfo = new Toast(Activity);
             // Set Gravity To Toast
-            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
             // Set length To Toast Message!
             toastInfo.setDuration(Length);
             // Set Custom View To Toast Message!
@@ -160,7 +161,7 @@ public class KazToast {
             // Instance Toast
             toastInfo = new Toast(Activity);
             // Set Gravity To Toast
-            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
             // Set length To Toast Message!
             toastInfo.setDuration(Length);
             // Set Custom View To Toast Message!
@@ -184,7 +185,7 @@ public class KazToast {
             // Instance Toast
             toastInfo = new Toast(Activity);
             // Set Gravity To Toast
-            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
             // Set length To Toast Message!
             toastInfo.setDuration(Length);
             // Set Custom View To Toast Message!
@@ -221,7 +222,7 @@ public class KazToast {
             // Instance Toast
             toastInfo = new Toast(Activity);
             // Set Gravity To Toast
-            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
             // Set length To Toast Message!
             toastInfo.setDuration(Length);
             // Set Custom View To Toast Message!
@@ -245,7 +246,7 @@ public class KazToast {
             // Instance Toast
             toastInfo = new Toast(Activity);
             // Set Gravity To Toast
-            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
             // Set length To Toast Message!
             toastInfo.setDuration(Length);
             // Set Custom View To Toast Message!
@@ -269,7 +270,7 @@ public class KazToast {
         // Instance Toast
         Toast toastInfo = new Toast(((Activity) context));
         // Set Gravity To Toast
-        toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+        toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
         // Set length To Toast Message!
         toastInfo.setDuration(Length);
         // Set Custom View To Toast Message!
@@ -292,7 +293,7 @@ public class KazToast {
         // Instance Toast
         Toast toastInfo = new Toast(((Activity) context));
         // Set Gravity To Toast
-        toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+        toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
         // Set length To Toast Message!
         toastInfo.setDuration(Length);
         // Set Custom View To Toast Message!
@@ -319,7 +320,7 @@ public class KazToast {
             // Instance Toast
             toastInfo = new Toast(((Activity) context));
             // Set Gravity To Toast
-            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
             // Set length To Toast Message!
             toastInfo.setDuration(Length);
             // Set Custom View To Toast Message!
@@ -343,7 +344,7 @@ public class KazToast {
             // Instance Toast
             toastInfo = new Toast(((Activity) context));
             // Set Gravity To Toast
-            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
             // Set length To Toast Message!
             toastInfo.setDuration(Length);
             // Set Custom View To Toast Message!
@@ -372,7 +373,7 @@ public class KazToast {
             // Instance Toast
             toastInfo = new Toast(((Activity) context));
             // Set Gravity To Toast
-            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
             // Set length To Toast Message!
             toastInfo.setDuration(Length);
             // Set Custom View To Toast Message!
@@ -396,7 +397,7 @@ public class KazToast {
             // Instance Toast
              toastInfo = new Toast(((Activity) context));
             // Set Gravity To Toast
-            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
             // Set length To Toast Message!
             toastInfo.setDuration(Length);
             // Set Custom View To Toast Message!
@@ -423,7 +424,7 @@ public class KazToast {
         // Instance Toast
         Toast toastInfo = new Toast(Activity);
         // Set Gravity To Toast
-        toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+        toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
         // Set length To Toast Message!
         toastInfo.setDuration(Length);
         // Set Custom View To Toast Message!
@@ -445,7 +446,7 @@ public class KazToast {
         // Instance Toast
         Toast toastInfo = new Toast(Activity);
         // Set Gravity To Toast
-        toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+        toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
         // Set length To Toast Message!
         toastInfo.setDuration(Length);
         // Set Custom View To Toast Message!
@@ -472,7 +473,7 @@ public class KazToast {
             // Instance Toast
             toastInfo = new Toast(Activity);
             // Set Gravity To Toast
-            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
             // Set length To Toast Message!
             toastInfo.setDuration(Length);
             // Set Custom View To Toast Message!
@@ -496,7 +497,7 @@ public class KazToast {
             // Instance Toast
             toastInfo = new Toast(Activity);
             // Set Gravity To Toast
-            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
             // Set length To Toast Message!
             toastInfo.setDuration(Length);
             // Set Custom View To Toast Message!
@@ -525,7 +526,7 @@ public class KazToast {
             // Instance Toast
             toastInfo = new Toast(Activity);
             // Set Gravity To Toast
-            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
             // Set length To Toast Message!
             toastInfo.setDuration(Length);
             // Set Custom View To Toast Message!
@@ -549,7 +550,7 @@ public class KazToast {
             // Instance Toast
             toastInfo = new Toast(Activity);
             // Set Gravity To Toast
-            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
             // Set length To Toast Message!
             toastInfo.setDuration(Length);
             // Set Custom View To Toast Message!
@@ -586,7 +587,7 @@ public class KazToast {
             // Instance Toast
             toastInfo = new Toast(Activity);
             // Set Gravity To Toast
-            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
             // Set length To Toast Message!
             toastInfo.setDuration(Length);
             // Set Custom View To Toast Message!
@@ -609,7 +610,7 @@ public class KazToast {
             // Instance Toast
             toastInfo = new Toast(Activity);
             // Set Gravity To Toast
-            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
             // Set length To Toast Message!
             toastInfo.setDuration(Length);
             // Set Custom View To Toast Message!
@@ -634,7 +635,7 @@ public class KazToast {
         // Instance Toast
         Toast toastInfo = new Toast(((Activity) context));
         // Set Gravity To Toast
-        toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+        toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
         // Set length To Toast Message!
         toastInfo.setDuration(Length);
         // Set Custom View To Toast Message!
@@ -657,7 +658,7 @@ public class KazToast {
         // Instance Toast
         Toast toastInfo = new Toast(((Activity) context));
         // Set Gravity To Toast
-        toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+        toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
         // Set length To Toast Message!
         toastInfo.setDuration(Length);
         // Set Custom View To Toast Message!
@@ -684,7 +685,7 @@ public class KazToast {
             // Instance Toast
             toastInfo = new Toast(((Activity) context));
             // Set Gravity To Toast
-            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
             // Set length To Toast Message!
             toastInfo.setDuration(Length);
             // Set Custom View To Toast Message!
@@ -708,7 +709,7 @@ public class KazToast {
             // Instance Toast
             toastInfo = new Toast(((Activity) context));
             // Set Gravity To Toast
-            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
             // Set length To Toast Message!
             toastInfo.setDuration(Length);
             // Set Custom View To Toast Message!
@@ -737,7 +738,7 @@ public class KazToast {
             // Instance Toast
             toastInfo = new Toast(((Activity) context));
             // Set Gravity To Toast
-            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
             // Set length To Toast Message!
             toastInfo.setDuration(Length);
             // Set Custom View To Toast Message!
@@ -761,7 +762,7 @@ public class KazToast {
             // Instance Toast
             toastInfo = new Toast(((Activity) context));
             // Set Gravity To Toast
-            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
             // Set length To Toast Message!
             toastInfo.setDuration(Length);
             // Set Custom View To Toast Message!
@@ -788,7 +789,7 @@ public class KazToast {
         // Instance Toast
         Toast toastInfo = new Toast(Activity);
         // Set Gravity To Toast
-        toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+        toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
         // Set length To Toast Message!
         toastInfo.setDuration(Length);
         // Set Custom View To Toast Message!
@@ -811,7 +812,7 @@ public class KazToast {
         // Instance Toast
         Toast toastInfo = new Toast(Activity);
         // Set Gravity To Toast
-        toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+        toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
         // Set length To Toast Message!
         toastInfo.setDuration(Length);
         // Set Custom View To Toast Message!
@@ -838,7 +839,7 @@ public class KazToast {
             // Instance Toast
             toastInfo = new Toast(Activity);
             // Set Gravity To Toast
-            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
             // Set length To Toast Message!
             toastInfo.setDuration(Length);
             // Set Custom View To Toast Message!
@@ -862,7 +863,7 @@ public class KazToast {
             // Instance Toast
             toastInfo = new Toast(Activity);
             // Set Gravity To Toast
-            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
             // Set length To Toast Message!
             toastInfo.setDuration(Length);
             // Set Custom View To Toast Message!
@@ -891,7 +892,7 @@ public class KazToast {
             // Instance Toast
             toastInfo = new Toast(Activity);
             // Set Gravity To Toast
-            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
             // Set length To Toast Message!
             toastInfo.setDuration(Length);
             // Set Custom View To Toast Message!
@@ -915,7 +916,7 @@ public class KazToast {
             // Instance Toast
             toastInfo = new Toast(Activity);
             // Set Gravity To Toast
-            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
             // Set length To Toast Message!
             toastInfo.setDuration(Length);
             // Set Custom View To Toast Message!
@@ -953,7 +954,7 @@ public class KazToast {
             // Instance Toast
             toastInfo = new Toast(Activity);
             // Set Gravity To Toast
-            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
             // Set length To Toast Message!
             toastInfo.setDuration(Length);
             // Set Custom View To Toast Message!
@@ -976,7 +977,7 @@ public class KazToast {
             // Instance Toast
             toastInfo = new Toast(Activity);
             // Set Gravity To Toast
-            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
             // Set length To Toast Message!
             toastInfo.setDuration(Length);
             // Set Custom View To Toast Message!
@@ -1001,7 +1002,7 @@ public class KazToast {
         // Instance Toast
         Toast toastInfo = new Toast(((Activity) context));
         // Set Gravity To Toast
-        toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+        toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
         // Set length To Toast Message!
         toastInfo.setDuration(Length);
         // Set Custom View To Toast Message!
@@ -1024,7 +1025,7 @@ public class KazToast {
         // Instance Toast
         Toast toastInfo = new Toast(((Activity) context));
         // Set Gravity To Toast
-        toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+        toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
         // Set length To Toast Message!
         toastInfo.setDuration(Length);
         // Set Custom View To Toast Message!
@@ -1051,7 +1052,7 @@ public class KazToast {
             // Instance Toast
             toastInfo = new Toast(((Activity) context));
             // Set Gravity To Toast
-            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
             // Set length To Toast Message!
             toastInfo.setDuration(Length);
             // Set Custom View To Toast Message!
@@ -1075,7 +1076,7 @@ public class KazToast {
             // Instance Toast
             toastInfo = new Toast(((Activity) context));
             // Set Gravity To Toast
-            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
             // Set length To Toast Message!
             toastInfo.setDuration(Length);
             // Set Custom View To Toast Message!
@@ -1103,7 +1104,7 @@ public class KazToast {
             // Instance Toast
             toastInfo = new Toast(((Activity) context));
             // Set Gravity To Toast
-            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
             // Set length To Toast Message!
             toastInfo.setDuration(Length);
             // Set Custom View To Toast Message!
@@ -1127,7 +1128,7 @@ public class KazToast {
             // Instance Toast
             toastInfo = new Toast(((Activity) context));
             // Set Gravity To Toast
-            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
             // Set length To Toast Message!
             toastInfo.setDuration(Length);
             // Set Custom View To Toast Message!
@@ -1154,7 +1155,7 @@ public class KazToast {
         // Instance Toast
         Toast toastInfo = new Toast(Activity);
         // Set Gravity To Toast
-        toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+        toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
         // Set length To Toast Message!
         toastInfo.setDuration(Length);
         // Set Custom View To Toast Message!
@@ -1179,7 +1180,7 @@ public class KazToast {
         // Instance Toast
         Toast toastInfo = new Toast(Activity);
         // Set Gravity To Toast
-        toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+        toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
         // Set length To Toast Message!
         toastInfo.setDuration(Length);
         // Set Custom View To Toast Message!
@@ -1209,7 +1210,7 @@ public class KazToast {
             // Instance Toast
             toastInfo = new Toast(Activity);
             // Set Gravity To Toast
-            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
             // Set length To Toast Message!
             toastInfo.setDuration(Length);
             // Set Custom View To Toast Message!
@@ -1233,7 +1234,7 @@ public class KazToast {
             // Instance Toast
             toastInfo = new Toast(Activity);
             // Set Gravity To Toast
-            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
             // Set length To Toast Message!
             toastInfo.setDuration(Length);
             // Set Custom View To Toast Message!
@@ -1264,7 +1265,7 @@ public class KazToast {
             // Instance Toast
             toastInfo = new Toast(Activity);
             // Set Gravity To Toast
-            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
             // Set length To Toast Message!
             toastInfo.setDuration(Length);
             // Set Custom View To Toast Message!
@@ -1288,7 +1289,7 @@ public class KazToast {
             // Instance Toast
             toastInfo = new Toast(Activity);
             // Set Gravity To Toast
-            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
             // Set length To Toast Message!
             toastInfo.setDuration(Length);
             // Set Custom View To Toast Message!
@@ -1329,7 +1330,7 @@ public class KazToast {
             // Instance Toast
             toastInfo = new Toast(Activity);
             // Set Gravity To Toast
-            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
             // Set length To Toast Message!
             toastInfo.setDuration(Length);
             // Set Custom View To Toast Message!
@@ -1352,7 +1353,7 @@ public class KazToast {
             // Instance Toast
             toastInfo = new Toast(Activity);
             // Set Gravity To Toast
-            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
             // Set length To Toast Message!
             toastInfo.setDuration(Length);
             // Set Custom View To Toast Message!
@@ -1379,7 +1380,7 @@ public class KazToast {
         // Instance Toast
         Toast toastInfo = new Toast(((Activity) context));
         // Set Gravity To Toast
-        toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+        toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
         // Set length To Toast Message!
         toastInfo.setDuration(Length);
         // Set Custom View To Toast Message!
@@ -1404,7 +1405,7 @@ public class KazToast {
         // Instance Toast
         Toast toastInfo = new Toast(((Activity) context));
         // Set Gravity To Toast
-        toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+        toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
         // Set length To Toast Message!
         toastInfo.setDuration(Length);
         // Set Custom View To Toast Message!
@@ -1434,7 +1435,7 @@ public class KazToast {
             // Instance Toast
             toastInfo = new Toast(((Activity) context));
             // Set Gravity To Toast
-            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
             // Set length To Toast Message!
             toastInfo.setDuration(Length);
             // Set Custom View To Toast Message!
@@ -1458,7 +1459,7 @@ public class KazToast {
             // Instance Toast
             toastInfo = new Toast(((Activity) context));
             // Set Gravity To Toast
-            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
             // Set length To Toast Message!
             toastInfo.setDuration(Length);
             // Set Custom View To Toast Message!
@@ -1490,7 +1491,7 @@ public class KazToast {
             // Instance Toast
             toastInfo = new Toast(((Activity) context));
             // Set Gravity To Toast
-            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
             // Set length To Toast Message!
             toastInfo.setDuration(Length);
             // Set Custom View To Toast Message!
@@ -1514,7 +1515,7 @@ public class KazToast {
             // Instance Toast
             toastInfo = new Toast(((Activity) context));
             // Set Gravity To Toast
-            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
             // Set length To Toast Message!
             toastInfo.setDuration(Length);
             // Set Custom View To Toast Message!
@@ -1545,7 +1546,7 @@ public class KazToast {
             // Initiate LayoutInflater R.id
             View layout = inflater.inflate(R.layout.custom_custom_toast, Activity.findViewById(R.id.custom_custom_toast_icon_container));
             // Instance Of LinearLayout To set Background
-            LinearLayout background = (LinearLayout) layout.findViewById(R.id.custom_custom_toast_icon_container);
+            RelativeLayout background = (RelativeLayout) layout.findViewById(R.id.custom_custom_toast_icon_container);
             // Initiate Text View  R.id > Toast Custom Text
             TextView text = layout.findViewById(R.id.text);
             // Initiate Typeface to Set Font
@@ -1577,7 +1578,7 @@ public class KazToast {
             // Instance Toast
             toastInfo = new Toast(Activity);
             // Set Gravity To Toast
-            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
             // Set length To Toast Message!
             toastInfo.setDuration(Length);
             // Set Custom View To Toast Message!
@@ -1591,7 +1592,7 @@ public class KazToast {
             // Initiate LayoutInflater R.id
             View layout = inflater.inflate(R.layout.custom_custom_toast_icon_false, Activity.findViewById(R.id.custom_toast_custom_icon_false_container));
             // Instance Of LinearLayout To set Background
-            LinearLayout background = (LinearLayout) layout.findViewById(R.id.custom_toast_custom_icon_false_container);
+            RelativeLayout background = (RelativeLayout) layout.findViewById(R.id.custom_toast_custom_icon_false_container);
             // Initiate Text View  R.id > Toast Custom Text
             TextView text = layout.findViewById(R.id.text);
             // Initiate Typeface to Set Font
@@ -1617,7 +1618,7 @@ public class KazToast {
             // Instance Toast
             toastInfo = new Toast(Activity);
             // Set Gravity To Toast
-            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
             // Set length To Toast Message!
             toastInfo.setDuration(Length);
             // Set Custom View To Toast Message!
@@ -1646,7 +1647,7 @@ public class KazToast {
             // Initiate LayoutInflater R.id
             View layout = inflater.inflate(R.layout.custom_custom_toast, Activity.findViewById(R.id.custom_custom_toast_icon_container));
             // Instance Of LinearLayout To set Background
-            LinearLayout background = (LinearLayout) layout.findViewById(R.id.custom_custom_toast_icon_container);
+            RelativeLayout background = (RelativeLayout) layout.findViewById(R.id.custom_custom_toast_icon_container);
             // Initiate Text View  R.id > Toast Custom Text
             TextView text = layout.findViewById(R.id.text);
             // Initiate Image View > Set Icon
@@ -1675,7 +1676,7 @@ public class KazToast {
             // Instance Toast
             toastInfo = new Toast(Activity);
             // Set Gravity To Toast
-            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
             // Set length To Toast Message!
             toastInfo.setDuration(Length);
             // Set Custom View To Toast Message!
@@ -1689,7 +1690,7 @@ public class KazToast {
             // Initiate LayoutInflater R.id
             View layout = inflater.inflate(R.layout.custom_custom_toast_icon_false, Activity.findViewById(R.id.custom_toast_custom_icon_false_container));
             // Instance Of LinearLayout To set Background
-            LinearLayout background = (LinearLayout) layout.findViewById(R.id.custom_toast_custom_icon_false_container);
+            RelativeLayout background = (RelativeLayout) layout.findViewById(R.id.custom_toast_custom_icon_false_container);
             // Initiate Text View  R.id > Toast Custom Text
             TextView text = layout.findViewById(R.id.text);
             // Setting Visible To Icon
@@ -1712,7 +1713,7 @@ public class KazToast {
             // Instance Toast
             toastInfo = new Toast(Activity);
             // Set Gravity To Toast
-            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
             // Set length To Toast Message!
             toastInfo.setDuration(Length);
             // Set Custom View To Toast Message!
@@ -1742,7 +1743,7 @@ public class KazToast {
             // Initiate LayoutInflater R.id
             View layout = inflater.inflate(R.layout.custom_custom_toast, ((Activity)Context).findViewById(R.id.custom_custom_toast_icon_container));
             // Instance Of LinearLayout To set Background
-            LinearLayout background = (LinearLayout) layout.findViewById(R.id.custom_custom_toast_icon_container);
+            RelativeLayout background = (RelativeLayout) layout.findViewById(R.id.custom_custom_toast_icon_container);
             // Initiate Text View  R.id > Toast Custom Text
             TextView text = layout.findViewById(R.id.text);
             // Initiate Typeface to Set Font
@@ -1774,7 +1775,7 @@ public class KazToast {
             // Instance Toast
             toastInfo = new Toast(((Activity)Context));
             // Set Gravity To Toast
-            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
             // Set length To Toast Message!
             toastInfo.setDuration(Length);
             // Set Custom View To Toast Message!
@@ -1788,7 +1789,7 @@ public class KazToast {
             // Initiate LayoutInflater R.id
             View layout = inflater.inflate(R.layout.custom_custom_toast_icon_false, ((Activity)Context).findViewById(R.id.custom_toast_custom_icon_false_container));
             // Instance Of LinearLayout To set Background
-            LinearLayout background = (LinearLayout) layout.findViewById(R.id.custom_toast_custom_icon_false_container);
+            RelativeLayout background = (RelativeLayout) layout.findViewById(R.id.custom_toast_custom_icon_false_container);
             // Initiate Text View  R.id > Toast Custom Text
             TextView text = layout.findViewById(R.id.text);
             // Initiate Typeface to Set Font
@@ -1814,7 +1815,7 @@ public class KazToast {
             // Instance Toast
             toastInfo = new Toast(((Activity)Context));
             // Set Gravity To Toast
-            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
             // Set length To Toast Message!
             toastInfo.setDuration(Length);
             // Set Custom View To Toast Message!
@@ -1843,7 +1844,7 @@ public class KazToast {
             // Initiate LayoutInflater R.id
             View layout = inflater.inflate(R.layout.custom_custom_toast, ((Activity)Context).findViewById(R.id.custom_custom_toast_icon_container));
             // Instance Of LinearLayout To set Background
-            LinearLayout background = (LinearLayout) layout.findViewById(R.id.custom_custom_toast_icon_container);
+            RelativeLayout background = (RelativeLayout) layout.findViewById(R.id.custom_custom_toast_icon_container);
             // Initiate Text View  R.id > Toast Custom Text
             TextView text = layout.findViewById(R.id.text);
             // Initiate Image View > Set Icon
@@ -1872,7 +1873,7 @@ public class KazToast {
             // Instance Toast
             toastInfo = new Toast(((Activity)Context));
             // Set Gravity To Toast
-            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
             // Set length To Toast Message!
             toastInfo.setDuration(Length);
             // Set Custom View To Toast Message!
@@ -1886,7 +1887,7 @@ public class KazToast {
             // Initiate LayoutInflater R.id
             View layout = inflater.inflate(R.layout.custom_custom_toast_icon_false, ((Activity)Context).findViewById(R.id.custom_toast_custom_icon_false_container));
             // Instance Of LinearLayout To set Background
-            LinearLayout background = (LinearLayout) layout.findViewById(R.id.custom_toast_custom_icon_false_container);
+            RelativeLayout background = (RelativeLayout) layout.findViewById(R.id.custom_toast_custom_icon_false_container);
             // Initiate Text View  R.id > Toast Custom Text
             TextView text = layout.findViewById(R.id.text);
             // Setting Visible To Icon
@@ -1909,7 +1910,7 @@ public class KazToast {
             // Instance Toast
             toastInfo = new Toast(((Activity)Context));
             // Set Gravity To Toast
-            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 10);
+            toastInfo.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 50);
             // Set length To Toast Message!
             toastInfo.setDuration(Length);
             // Set Custom View To Toast Message!
