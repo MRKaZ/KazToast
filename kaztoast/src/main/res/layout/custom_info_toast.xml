@@ -21,16 +21,16 @@
             android:id="@+id/toastIconInfo"
             android:layout_marginLeft="25dp"
             android:layout_gravity="center"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
             android:background="@drawable/ic_info_c"
             android:contentDescription="@string/app_name" />
 
         <TextView
             android:text="Toast Message"
-            android:textSize="14dp"
-            android:layout_marginRight="35dp"
-            android:layout_marginLeft="11dp"
+            android:textSize="15dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="12dp"
             android:id="@+id/text"
             android:gravity="center"
             android:layout_width="match_parent"

@@ -218,7 +218,7 @@ public class MainActivity extends AppCompatActivity {
                                 R.font.internet, // Set Font
                                 KazToast.LENGTH_SHORT, // Or Use - 0 Integer
                                 true, // Boolean icon == true / false
-                                R.drawable.ic_male_user, // Set Custom Icon
+                                R.drawable.ic_github, // Set Custom Icon
                                 R.drawable.toast_custom_test_background) // Boolean icon == true / false
                                 .show(); // Show Toast
                         break;
@@ -231,8 +231,8 @@ public class MainActivity extends AppCompatActivity {
                                 R.string.toast_warn_message, // Message
                                 R.color.white, // Set Text Color
                                 KazToast.LENGTH_SHORT, // Or Use - 0 Integer
-                                false, // Boolean icon == true / false
-                                R.drawable.ic_male_user, // Set Custom Icon
+                                true, // Boolean icon == true / false
+                                R.drawable.ic_github, // Set Custom Icon
                                 R.drawable.toast_custom_test_background) // Boolean icon == true / false
                                 .show(); // Show Toast
                         break;

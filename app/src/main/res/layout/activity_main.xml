@@ -18,7 +18,6 @@
            android:layout_height="150dip"
            android:background="@drawable/layout_red_background">
 
-
            <ImageView
                android:id="@+id/mainTitleImage"
                android:layout_marginTop="15dp"
@@ -265,7 +264,9 @@
                    android:layout_gravity="center"
                    android:layout_width="wrap_content"
                    android:layout_height="wrap_content"
-                   android:layout_marginBottom="10dp">
+                   android:layout_marginBottom="10dp"
+                   android:padding="1dp"
+                   android:background="@drawable/radio_flat_stroke">
 
                    <RadioGroup
                        android:id="@+id/radioGroup"
@@ -403,7 +404,9 @@
                    android:layout_gravity="center"
                    android:layout_width="wrap_content"
                    android:layout_height="wrap_content"
-                   android:layout_marginBottom="10dp">
+                   android:layout_marginBottom="10dp"
+                   android:padding="1dp"
+                   android:background="@drawable/radio_flat_stroke">
 
                    <RadioGroup
                        android:id="@+id/radioGroupWarn"
@@ -541,7 +544,9 @@
                    android:layout_gravity="center"
                    android:layout_width="wrap_content"
                    android:layout_height="wrap_content"
-                   android:layout_marginBottom="10dp">
+                   android:layout_marginBottom="10dp"
+                   android:padding="1dp"
+                   android:background="@drawable/radio_flat_stroke">
 
                    <RadioGroup
                        android:id="@+id/radioGroupError"
@@ -679,7 +684,9 @@
                    android:layout_gravity="center"
                    android:layout_width="wrap_content"
                    android:layout_height="wrap_content"
-                   android:layout_marginBottom="10dp">
+                   android:layout_marginBottom="10dp"
+                   android:padding="1dp"
+                   android:background="@drawable/radio_flat_stroke">
 
                    <RadioGroup
                        android:id="@+id/radioGroupCustom"

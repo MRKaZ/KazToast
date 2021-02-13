@@ -23,7 +23,7 @@
 
     <!--Custom Test Colors-->
     <color name="customTest">#4F4F4F</color>
-    <color name="customTestDark">#000000</color>
+    <color name="customTestDark">#252525</color>
 
     <!--App Based Colors-->
     <color name="colorPrimary">#F1001B</color>
