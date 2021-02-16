@@ -15,21 +15,20 @@
             android:id="@+id/toastIconWarn"
             android:layout_width="27dp"
             android:layout_height="27dp"
-            android:layout_marginRight="12dp"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:background="@drawable/ic_warn"
-            android:layout_marginEnd="12dp"
             android:layout_centerVertical="true"
             android:layout_alignParentStart="true" />
 
         <TextView
             android:textSize="14dp"
+            android:layout_marginLeft="12dp"
             android:layout_marginRight="12dp"
             android:gravity="center"
             android:id="@+id/text"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="27dp"
             android:layout_centerVertical="true"
             android:textColor="#fff"
             android:layout_toRightOf="@id/toastIconWarn"

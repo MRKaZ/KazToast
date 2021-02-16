@@ -54,12 +54,12 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.radioInfoWithCustomIcon:
                         // CustomToast.{makeYourChoice}
                         KazToast.makeInfoToast(
-                                MainActivity.this, // Activity Or Context
-                                R.string.toast_warn_message, // Message
-                                KazToast.LENGTH_SHORT, // Or Use - 0 Integer
-                                true, // Boolean icon == true / false
-                                R.drawable.ic_kaz_toast_logo) // Set Custom Icon
-                                .show(); // Show Toast
+                                MainActivity.this,
+                                R.string.toast_info_message,
+                                KazToast.LENGTH_SHORT,
+                                true,
+                                R.drawable.ic_kaz_toast_logo,
+                                R.drawable.toast_info_background).show();
                         break;
                 }
             }
@@ -99,12 +99,13 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.radioWarnWithCustomIcon:
                         // CustomToast.{makeYourChoice}
                         KazToast.makeWarnToast(
-                                MainActivity.this, // Activity Or Context
-                                R.string.toast_warn_message, // Message
-                                KazToast.LENGTH_SHORT, // Or Use - 0 Integer
-                                true, // Boolean icon == true / false
-                                R.drawable.ic_kaz_toast_logo) // Set Custom Icon
-                                .show(); // Show Toast
+                                MainActivity.this,
+                                R.string.toast_warn_message,
+                                KazToast.LENGTH_SHORT,
+                                true,
+                                R.drawable.ic_kaz_toast_logo,
+                                R.drawable.toast_warn_background)
+                                .show();
                         break;
                 }
             }
@@ -144,12 +145,12 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.radioErrorWithCustomIcon:
                         // CustomToast.{makeYourChoice}
                         KazToast.makeErrorToast(
-                                MainActivity.this, // Activity Or Context
-                                R.string.toast_warn_message, // Message
-                                KazToast.LENGTH_SHORT, // Or Use - 0 Integer
-                                true, // Boolean icon == true / false
-                                R.drawable.ic_kaz_toast_logo) // Set Custom Icon
-                                .show(); // Show Toast
+                                MainActivity.this,
+                                R.string.toast_info_message,
+                                KazToast.LENGTH_SHORT,
+                                true,
+                                R.drawable.ic_kaz_toast_logo,
+                                R.drawable.toast_error_background).show();
                         break;
                 }
             }
@@ -189,12 +190,12 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.radioSuccessWithCustomIcon:
                         // CustomToast.{makeYourChoice}
                         KazToast.makeSuccessToast(
-                                MainActivity.this, // Activity Or Context
-                                R.string.toast_warn_message, // Message
-                                KazToast.LENGTH_SHORT, // Or Use - 0 Integer
-                                true, // Boolean icon == true / false
-                                R.drawable.ic_kaz_toast_logo) // Set Custom Icon
-                                .show(); // Show Toast
+                                MainActivity.this,
+                                R.string.toast_info_message,
+                                KazToast.LENGTH_SHORT,
+                                true,
+                                R.drawable.ic_kaz_toast_logo,
+                                R.drawable.toast_success_background).show();
                         break;
                 }
             }
@@ -222,14 +223,14 @@ public class MainActivity extends AppCompatActivity {
                                 R.drawable.toast_custom_test_background) // Boolean icon == true / false
                                 .show(); // Show Toast
                         break;
-                        
+
                     // Without Icon Radio Button
                     case R.id.radioWithoutIconCustom:
                         // CustomToast.{makeYourChoice}
                         KazToast.makeCustomToast(
                                 MainActivity.this, // Activity Or Context
                                 R.string.toast_warn_message, // Message
-                                R.color.white, // Set Text Color
+                                R.color.white, // Set Text Color// Set Font
                                 KazToast.LENGTH_SHORT, // Or Use - 0 Integer
                                 true, // Boolean icon == true / false
                                 R.drawable.ic_github, // Set Custom Icon
