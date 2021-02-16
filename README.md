@@ -27,7 +27,7 @@ Add this to your module's `build.gradle` file:
 ```gradle
 dependencies {
 	...
-	implementation 'com.github.MRKaZ:KazToast:1.4'
+	 implementation 'com.github.MRKaZ:KazToast:1.4.1'
 	//implementation 'com.github.MRKaZ:KazToast:Tag'
 }
 ```
