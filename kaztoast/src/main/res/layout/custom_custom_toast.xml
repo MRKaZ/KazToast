@@ -27,7 +27,7 @@
             android:layout_marginRight="12dp"
             android:id="@+id/text"
             android:layout_width="wrap_content"
-            android:layout_height="27dp"
+            android:layout_height="wrap_content"
             android:layout_centerVertical="true"
             android:textColor="#fff"
             android:layout_toRightOf="@id/toastIconCustom"
