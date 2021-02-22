@@ -7,6 +7,10 @@
 
 Make Your Custom Toast Here!.
 
+## NOTE
+
+Dont use **v1.2** & **v1.4** these two giving errors!
+
 ## Prerequisites
 
 Add this in your root `build.gradle` file (**not** in your `build.gradle.app` add it into your module `build.gradle` file):
